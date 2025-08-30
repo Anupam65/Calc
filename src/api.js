@@ -1,4 +1,4 @@
-export const BASEURL = "http://localhost:8090/";
+export const BASEURL = "http://localhost:8080/calc/";
 export function callApi(reqmethod, url, data, responseHandler) {
     let options = "";
     if (reqmethod === "GET" || reqmethod === "DELETE")
